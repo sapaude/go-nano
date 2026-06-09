@@ -1,20 +1,20 @@
 go 1.23
 
 use (
-    ./core
-    ./log
-    ./db
-    ./mq
-    ./cache
-    ./middleware
-    ./contrib/config/viper
-    ./contrib/log/zerolog
-    ./contrib/log/zap
-    ./contrib/db/mysql
-    ./contrib/db/postgres
-    ./contrib/db/sqlite
-    ./contrib/mq/kafka
-    ./contrib/mq/nats
-    ./contrib/cache/redis
-    ./examples
+	./cache
+	./contrib/cache/redis
+	./contrib/config/viper
+	./contrib/db/mysql
+	./contrib/db/postgres
+	./contrib/db/sqlite
+	./contrib/log/zap
+	./contrib/log/zerolog
+	./contrib/mq/kafka
+	./contrib/mq/nats
+	./core
+	./db
+	./examples
+	./log
+	./middleware
+	./mq
 )
